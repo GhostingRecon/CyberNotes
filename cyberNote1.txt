@@ -1,0 +1,93 @@
+
+
+	
+
+CYBERSECURITY // AUTHENTICATION 
+
+
+	/ What kind of information can uniquely identify you?
+
+		- Full names 
+		- Usernames, Email..
+		- Physical identifiers: Skin color, hair color, fingerprints
+
+
+	/ Requirements on identification:
+
+		- Each value should be unique for user accountability
+		- The value should not be shared
+		- A standard naming scheme should be followed 
+		- The value should be nondescriptive of the user´s position or tasks
+	
+	/ Authentication 
+
+		User Authentication
+		
+		A process that vertify the "Binding" between an claimed entity with some
+		attributes/information, such as;
+			
+			- Password, PIN, Security Token, Biometric Information that can 
+			  not be provided by others 
+			- User authentication is primary line of defense in computer security;
+			- Other security controls rely on user authentication (can we have a 100% correct process)
+ 	
+	/ Means of Authentication
+		
+		Something the induvidual;
+
+		Knows
+		- Etc: Passwod, PIN, Sec Questions
+		
+		Prossesses
+		- Tokens: Keycard, Smart Card, Physical keys
+		
+		Is
+		- Static biometrics: Fingerprints, Retina, Face
+
+		Does
+		- Dynamic Biometrics: Voice Pattern, Handwrigting, typing rhythm
+
+	/ Password-based Authentication
+		
+		- How to store passowrds?
+		- How to select passwords?
+		- How to submit the passwords?
+		- How to respond (if no match)?
+		
+		Storing Passwords in the Clear Text
+			- Insider attack: normal user reads the database and learns other users passowords
+
+	/ Storing passwords in the Hashed Text
+		
+		- Hashes of passwords are stored
+		- When user submits password, it is hashed and compared to the stored value
+		-		
+
+	/ Hash value
+		
+		if a hash with 16 bits is chosen
+		
+		PWD1		HASH1
+		---------------------
+		etc		etc
+		
+		PWD1^12		HASH1^12
+			
+	/ Cracking Passwords 
+		
+		Known Technical Attacs
+		
+		/ Brute Force Attack
+			
+			- B
+		
+		TOTAL TIME = PASSWORD SPACE / SPEED 
+
+
+
+
+	 			
+		
+
+
+
